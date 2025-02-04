@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const useUserProfile = () => {
     const { authUser } = useAuthContext();
-    const API_URL = `/api/user/${authUser._id}`; 
+    const API_URL = `https://flexmoney-assignment-backend-t7j3.onrender.com/api/user/${authUser._id}`; 
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
     const [updating, setUpdating] = useState(false);
