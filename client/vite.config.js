@@ -11,7 +11,7 @@ export default defineConfig({
     port: 3000, 
     proxy: {
       '/api': {
-        target: 'https://flexmoney-assignment-backend-t7j3.onrender.com/api',  
+        target: 'https://flexmoney-assignment-backend-t7j3.onrender.com',  
         changeOrigin: true,             
         secure: false,                 
       },
