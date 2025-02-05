@@ -14,7 +14,7 @@ const useSignup = () => {
         setLoading(true);
         try {
             console.log(fullName);
-            const res = await fetch("/api/auth/signup",{
+            const res = await fetch("https://flexmoney-assignment-backend-t7j3.onrender.com/api/auth/signup",{
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({fullName,username,password,confirmpassword,gender})

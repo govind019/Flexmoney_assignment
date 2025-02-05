@@ -11,7 +11,7 @@ const useLogout = () => {
 		setLoading(true);
         console.log('logging out');
 		try {
-			const res = await fetch("/api/auth/logout", {
+			const res = await fetch("https://flexmoney-assignment-backend-t7j3.onrender.com/api/auth/logout", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 			});
