@@ -31,7 +31,7 @@ const SignUp = () => {
 		<div className='flex min-h-screen flex-col items-center justify-center w-96 mx-auto'>
 			<div className='w-full text-white p-6 rounded-lg shadow-md bg-gray-800/60 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
 				<h1 className='text-3xl font-semibold text-center text-gray-300'>
-					Sign Up <span className='text-purple-200'> Udaan </span>
+					Sign Up <span className='text-purple-200'> YogVeda </span>
 				</h1>
 
 				<form onSubmit={handleSubmit}> 
