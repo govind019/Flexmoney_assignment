@@ -20,13 +20,7 @@ const PORT = process.env.PORT || 5000;
 app.use('/api/auth', authRoutes); 
 // Use the user routes
 app.use('/api/user', userRoutes);
-app.use(
-  cors({
-    origin: "*",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
+
 app.listen(PORT, () => {
   connectDB();
   console.log(`Server is running on http://localhost:${PORT}`);
