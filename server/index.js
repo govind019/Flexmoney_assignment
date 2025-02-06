@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use(cors({
-  origin: 'https://flexmoney-assignment-lime.vercel.app/' || "http://localhost:3000",
+  origin: "*",
   credentials: true, 
 }));
 
